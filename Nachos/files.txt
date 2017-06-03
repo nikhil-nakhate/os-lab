@@ -1,0 +1,6 @@
+files to be edited:
+1.syscall.h
+2.Makefile
+3.start.s
+4.exception.cc
+5.a new file has to be created in userprog where the actual code of the syscall will go

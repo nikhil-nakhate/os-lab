@@ -1,0 +1,2587 @@
+%!PS-Adobe-2.0
+%%Title: /home/martin/medoosa/nachos/nachos.dia
+%%Creator: Dia v0.86
+%%CreationDate: Mon Apr 23 16:51:21 2001
+%%For: a user
+%%DocumentPaperSizes: A4
+%%Orientation: Portrait
+%%BeginSetup
+%%EndSetup
+%%EndComments
+%%BeginProlog
+[ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+/parenleft /parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E
+/F /G /H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum /underscore /quoteleft /a /b /c
+/d /e /f /g /h /i /j /k /l /m
+/n /o /p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /periodcentered /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn /ydieresis] /isolatin1encoding exch def
+/Times-Roman-latin1
+    /Times-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Italic-latin1
+    /Times-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Bold-latin1
+    /Times-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-BoldItalic-latin1
+    /Times-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Book-latin1
+    /AvantGarde-Book findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-BookOblique-latin1
+    /AvantGarde-BookOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Demi-latin1
+    /AvantGarde-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-DemiOblique-latin1
+    /AvantGarde-DemiOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Light-latin1
+    /Bookman-Light findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-LightItalic-latin1
+    /Bookman-LightItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Demi-latin1
+    /Bookman-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-DemiItalic-latin1
+    /Bookman-DemiItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-latin1
+    /Courier findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Oblique-latin1
+    /Courier-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Bold-latin1
+    /Courier-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-BoldOblique-latin1
+    /Courier-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-latin1
+    /Helvetica findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Oblique-latin1
+    /Helvetica-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Bold-latin1
+    /Helvetica-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-BoldOblique-latin1
+    /Helvetica-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-latin1
+    /Helvetica-Narrow findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Oblique-latin1
+    /Helvetica-Narrow-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Bold-latin1
+    /Helvetica-Narrow-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-BoldOblique-latin1
+    /Helvetica-Narrow-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Roman-latin1
+    /NewCenturySchoolbook-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Italic-latin1
+    /NewCenturySchoolbook-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Bold-latin1
+    /NewCenturySchoolbook-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-BoldItalic-latin1
+    /NewCenturySchoolbook-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Roman-latin1
+    /Palatino-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Italic-latin1
+    /Palatino-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Bold-latin1
+    /Palatino-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-BoldItalic-latin1
+    /Palatino-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Symbol-latin1
+    /Symbol findfont
+definefont pop
+/ZapfChancery-MediumItalic-latin1
+    /ZapfChancery-MediumItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/ZapfDingbats-latin1
+    /ZapfDingbats findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/cp {closepath} bind def
+/c {curveto} bind def
+/f {fill} bind def
+/a {arc} bind def
+/ef {eofill} bind def
+/ex {exch} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth pop} bind def
+/tr {translate} bind def
+
+/ellipsedict 8 dict def
+ellipsedict /mtrx matrix put
+/ellipse
+{ ellipsedict begin
+   /endangle exch def
+   /startangle exch def
+   /yrad exch def
+   /xrad exch def
+   /y exch def
+   /x exch def   /savematrix mtrx currentmatrix def
+   x y tr xrad yrad sc
+   0 0 1 startangle endangle arc
+   savematrix setmatrix
+   end
+} def
+
+/mergeprocs {
+dup length
+3 -1 roll
+dup
+length
+dup
+5 1 roll
+3 -1 roll
+add
+array cvx
+dup
+3 -1 roll
+0 exch
+putinterval
+dup
+4 2 roll
+putinterval
+} bind def
+%%EndProlog
+
+
+%%Page: 1 1
+gs
+7.086614 -7.086614 scale
+72.720002 -107.520005 translate
+n -61.440002 0.000000 m 0.000000 0.000000 l 0.000000 96.240005 l -61.440002 96.240005 l -61.440002 0.000000 l clip
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -47.000000 23.000000 m -47.000000 24.400000 l -29.716800 24.400000 l -29.716800 23.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -47.000000 23.000000 m -47.000000 24.400000 l -29.716800 24.400000 l -29.716800 23.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(AddrSpace) dup sw 2 div -38.358400 ex sub 24.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -47.000000 24.400000 m -47.000000 25.400000 l -29.716800 25.400000 l -29.716800 24.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -47.000000 24.400000 m -47.000000 25.400000 l -29.716800 25.400000 l -29.716800 24.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-numPages: unsigned int) -46.850000 25.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -47.000000 25.400000 m -47.000000 29.600000 l -29.716800 29.600000 l -29.716800 25.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -47.000000 25.400000 m -47.000000 29.600000 l -29.716800 29.600000 l -29.716800 25.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+AddrSpace\(executable:OpenFile*\): ) -46.850000 26.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+InitRegisters\(\): void) -46.850000 26.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+RestoreState\(\): void) -46.850000 27.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+SaveState\(\): void) -46.850000 28.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~AddrSpace\(\): ) -46.850000 29.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -29.716800 23.700000 m -26.000000 23.700000 l -26.000000 23.000000 l -24.000000 23.000000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -25.900000 23.144690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -29.716800 23.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -29.716800 24.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-pageTable) dup sw -24.000000 ex sub 22.794690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -24.000000 ex sub 23.594690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -60.000000 52.000000 m -60.000000 53.400000 l -43.686400 53.400000 l -43.686400 52.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 52.000000 m -60.000000 53.400000 l -43.686400 53.400000 l -43.686400 52.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(BitMap) dup sw 2 div -51.843200 ex sub 53.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -60.000000 53.400000 m -60.000000 56.000000 l -43.686400 56.000000 l -43.686400 53.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 53.400000 m -60.000000 56.000000 l -43.686400 56.000000 l -43.686400 53.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-map: unsigned int*) -59.850000 54.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-numBits: int) -59.850000 54.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-numWords: int) -59.850000 55.694690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -60.000000 56.000000 m -60.000000 64.200000 l -43.686400 64.200000 l -43.686400 56.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 56.000000 m -60.000000 64.200000 l -43.686400 64.200000 l -43.686400 56.000000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+BitMap\(nitems:int\): ) -59.850000 56.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Clear\(which:int\): void) -59.850000 57.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+FetchFrom\(file:OpenFile*\): void) -59.850000 58.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Find\(\): int) -59.850000 59.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Mark\(which:int\): void) -59.850000 59.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+NumClear\(\): int) -59.850000 60.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Print\(\): void) -59.850000 61.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Test\(which:int\): bool) -59.850000 62.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteBack\(file:OpenFile*\): void) -59.850000 63.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~BitMap\(\): ) -59.850000 63.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -60.000000 73.000000 m -60.000000 74.400000 l -41.747200 74.400000 l -41.747200 73.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 73.000000 m -60.000000 74.400000 l -41.747200 74.400000 l -41.747200 73.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Directory) dup sw 2 div -50.873600 ex sub 74.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -60.000000 74.400000 m -60.000000 75.400000 l -41.747200 75.400000 l -41.747200 74.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 74.400000 m -60.000000 75.400000 l -41.747200 75.400000 l -41.747200 74.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-tableSize: int) -59.850000 75.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -60.000000 75.400000 m -60.000000 83.600000 l -41.747200 83.600000 l -41.747200 75.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 75.400000 m -60.000000 83.600000 l -41.747200 83.600000 l -41.747200 75.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Add\(name:char*,newSector:int\): bool) -59.850000 76.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Directory\(size:int\): ) -59.850000 76.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+FetchFrom\(file:OpenFile*\): void) -59.850000 77.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Find\(name:char*\): int) -59.850000 78.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-FindIndex\(name:char*\): int) -59.850000 79.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+List\(\): void) -59.850000 80.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Print\(\): void) -59.850000 80.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Remove\(name:char*\): bool) -59.850000 81.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteBack\(file:OpenFile*\): void) -59.850000 82.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Directory\(\): ) -59.850000 83.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -41.747200 82.300000 m -40.000000 82.300000 l -40.000000 85.000000 l -44.140800 85.000000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -39.900000 83.444690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -41.747200 82.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -41.747200 82.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-table) -44.140800 84.794690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -44.140800 85.594690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -59.000000 85.000000 m -59.000000 86.400000 l -44.140800 86.400000 l -44.140800 85.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -59.000000 85.000000 m -59.000000 86.400000 l -44.140800 86.400000 l -44.140800 85.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(DirectoryEntry) dup sw 2 div -51.570400 ex sub 86.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -59.000000 86.400000 m -59.000000 89.000000 l -44.140800 89.000000 l -44.140800 86.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -59.000000 86.400000 m -59.000000 89.000000 l -44.140800 89.000000 l -44.140800 86.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+inUse: bool) -58.850000 87.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+name: char[FileNameMaxLen+1]) -58.850000 87.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+sector: int) -58.850000 88.694690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -59.000000 89.000000 m -59.000000 89.400000 l -44.140800 89.400000 l -44.140800 89.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -59.000000 89.000000 m -59.000000 89.400000 l -44.140800 89.400000 l -44.140800 89.000000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -35.000000 35.000000 m -35.000000 36.400000 l -5.112000 36.400000 l -5.112000 35.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -35.000000 35.000000 m -35.000000 36.400000 l -5.112000 36.400000 l -5.112000 35.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Disk) dup sw 2 div -20.056000 ex sub 36.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -35.000000 36.400000 m -35.000000 41.400000 l -5.112000 41.400000 l -5.112000 36.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -35.000000 36.400000 m -35.000000 41.400000 l -5.112000 41.400000 l -5.112000 36.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-active: bool) -34.850000 37.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-bufferInit: int) -34.850000 37.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-fileno: int) -34.850000 38.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-handler: VoidFunctionPtr) -34.850000 39.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-handlerArg: int) -34.850000 40.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-lastSector: int) -34.850000 41.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -35.000000 41.400000 m -35.000000 48.800000 l -5.112000 48.800000 l -5.112000 41.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -35.000000 41.400000 m -35.000000 48.800000 l -5.112000 48.800000 l -5.112000 41.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ComputeLatency\(newSector:int,writing:bool\): int) -34.850000 42.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Disk\(name:char*,callWhenDone:VoidFunctionPtr,callArg:int\): ) -34.850000 42.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+HandleInterrupt\(\): void) -34.850000 43.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-ModuloDiff\(to:int,from:int\): int) -34.850000 44.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ReadRequest\(sectorNumber:int,data:char*\): void) -34.850000 45.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-TimeToSeek\(newSector:int,rotate:int*\): int) -34.850000 46.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-UpdateLast\(newSector:int\): void) -34.850000 46.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteRequest\(sectorNumber:int,data:char*\): void) -34.850000 47.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Disk\(\): ) -34.850000 48.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -27.000000 84.000000 m -27.000000 85.400000 l -4.868800 85.400000 l -4.868800 84.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -27.000000 84.000000 m -27.000000 85.400000 l -4.868800 85.400000 l -4.868800 84.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(FileHeader) dup sw 2 div -15.934400 ex sub 85.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -27.000000 85.400000 m -27.000000 88.000000 l -4.868800 88.000000 l -4.868800 85.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -27.000000 85.400000 m -27.000000 88.000000 l -4.868800 88.000000 l -4.868800 85.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-dataSectors: int[NumDirect]) -26.850000 86.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-numBytes: int) -26.850000 86.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-numSectors: int) -26.850000 87.694690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -27.000000 88.000000 m -27.000000 93.800000 l -4.868800 93.800000 l -4.868800 88.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -27.000000 88.000000 m -27.000000 93.800000 l -4.868800 93.800000 l -4.868800 88.000000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Allocate\(bitMap:BitMap*,fileSize:int\): bool) -26.850000 88.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ByteToSector\(offset:int\): int) -26.850000 89.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Deallocate\(bitMap:BitMap*\): void) -26.850000 90.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+FetchFrom\(sectorNumber:int\): void) -26.850000 91.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+FileLength\(\): int) -26.850000 91.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Print\(\): void) -26.850000 92.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteBack\(sectorNumber:int\): void) -26.850000 93.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -28.000000 64.000000 m -28.000000 65.400000 l -7.323200 65.400000 l -7.323200 64.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -28.000000 64.000000 m -28.000000 65.400000 l -7.323200 65.400000 l -7.323200 64.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(FileSystem) dup sw 2 div -17.661600 ex sub 65.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -28.000000 65.400000 m -28.000000 65.800000 l -7.323200 65.800000 l -7.323200 65.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -28.000000 65.400000 m -28.000000 65.800000 l -7.323200 65.800000 l -7.323200 65.400000 l cp s
+1.000000 1.000000 1.000000 srgb
+n -28.000000 65.800000 m -28.000000 70.800000 l -7.323200 70.800000 l -7.323200 65.800000 l f
+0.000000 0.000000 0.000000 srgb
+n -28.000000 65.800000 m -28.000000 70.800000 l -7.323200 70.800000 l -7.323200 65.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Create\(name:char*,initialSize:int\): bool) -27.850000 66.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+FileSystem\(format:bool\): ) -27.850000 67.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+List\(\): void) -27.850000 68.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Open\(name:char*\): OpenFile*) -27.850000 68.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Print\(\): void) -27.850000 69.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Remove\(name:char*\): bool) -27.850000 70.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -28.000000 64.700000 m -37.000000 64.700000 l -37.000000 78.300000 l -30.000000 78.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -36.900000 71.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -28.000000 ex sub 64.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -28.000000 ex sub 65.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-directoryFile) dup sw -30.000000 ex sub 78.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -30.000000 ex sub 78.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -28.000000 66.300000 m -36.000000 66.300000 l -36.000000 75.900000 l -30.000000 75.900000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -35.900000 70.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -28.000000 ex sub 66.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -28.000000 ex sub 66.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-freeMapFile) dup sw -30.000000 ex sub 75.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -30.000000 ex sub 76.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -61.000000 4.000000 m -61.000000 5.400000 l -50.504000 5.400000 l -50.504000 4.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -61.000000 4.000000 m -61.000000 5.400000 l -50.504000 5.400000 l -50.504000 4.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Instruction) dup sw 2 div -55.752000 ex sub 5.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -61.000000 5.400000 m -61.000000 10.400000 l -50.504000 10.400000 l -50.504000 5.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -61.000000 5.400000 m -61.000000 10.400000 l -50.504000 10.400000 l -50.504000 5.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+extra: int) -60.850000 6.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+opCode: char) -60.850000 6.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+rd: char) -60.850000 7.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+rs: char) -60.850000 8.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+rt: char) -60.850000 9.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+value: unsigned int) -60.850000 10.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -61.000000 10.400000 m -61.000000 11.400000 l -50.504000 11.400000 l -50.504000 10.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -61.000000 10.400000 m -61.000000 11.400000 l -50.504000 11.400000 l -50.504000 10.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Decode\(\): void) -60.850000 11.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -41.000000 3.000000 m -41.000000 4.400000 l -13.536000 4.400000 l -13.536000 3.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -41.000000 3.000000 m -41.000000 4.400000 l -13.536000 4.400000 l -13.536000 3.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Machine) dup sw 2 div -27.268000 ex sub 4.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -41.000000 4.400000 m -41.000000 8.600000 l -13.536000 8.600000 l -13.536000 4.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -41.000000 4.400000 m -41.000000 8.600000 l -13.536000 8.600000 l -13.536000 4.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+mainMemory: char*) -40.850000 5.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+pageTableSize: unsigned int) -40.850000 5.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+registers: int[NumTotalRegs]) -40.850000 6.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-runUntilTime: int) -40.850000 7.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-singleStep: bool) -40.850000 8.294690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -41.000000 8.600000 m -41.000000 19.200000 l -13.536000 19.200000 l -13.536000 8.600000 l f
+0.000000 0.000000 0.000000 srgb
+n -41.000000 8.600000 m -41.000000 19.200000 l -13.536000 19.200000 l -13.536000 8.600000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Debugger\(\): void) -40.850000 9.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+DelayedLoad\(nextReg:int,nextVal:int\): void) -40.850000 10.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+DumpState\(\): void) -40.850000 10.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Machine\(debug:bool\): ) -40.850000 11.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+OneInstruction\(instr:Instruction*\): void) -40.850000 12.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+RaiseException\(which:ExceptionType,badVAddr:int\): void) -40.850000 13.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ReadMem\(addr:int,size:int,value:int*\): bool) -40.850000 14.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ReadRegister\(num:int\): int) -40.850000 14.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Run\(\): void) -40.850000 15.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Translate\($$$:\): ExceptionType) -40.850000 16.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteMem\(addr:int,size:int,value:int\): bool) -40.850000 17.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteRegister\(num:int,value:int\): void) -40.850000 18.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Machine\(\): ) -40.850000 18.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -13.536000 9.100000 m -5.000000 9.100000 l -5.000000 26.500000 l -10.595200 26.500000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -4.900000 17.594690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -13.536000 8.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -13.536000 9.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(+pageTable) -10.595200 26.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -10.595200 27.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -13.536000 11.500000 m -8.000000 11.500000 l -8.000000 24.900000 l -10.595200 24.900000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -7.900000 17.994690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -13.536000 11.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -13.536000 12.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(+tlb) -10.595200 24.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -10.595200 25.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -60.000000 18.000000 m -60.000000 19.400000 l -53.382400 19.400000 l -53.382400 18.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 18.000000 m -60.000000 19.400000 l -53.382400 19.400000 l -53.382400 18.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(OpInfo) dup sw 2 div -56.691200 ex sub 19.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -60.000000 19.400000 m -60.000000 21.200000 l -53.382400 21.200000 l -53.382400 19.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 19.400000 m -60.000000 21.200000 l -53.382400 21.200000 l -53.382400 19.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+format: int) -59.850000 20.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+opCode: int) -59.850000 20.894690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -60.000000 21.200000 m -60.000000 21.600000 l -53.382400 21.600000 l -53.382400 21.200000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 21.200000 m -60.000000 21.600000 l -53.382400 21.600000 l -53.382400 21.200000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -61.000000 13.000000 m -61.000000 14.400000 l -51.958400 14.400000 l -51.958400 13.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -61.000000 13.000000 m -61.000000 14.400000 l -51.958400 14.400000 l -51.958400 13.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(OpString) dup sw 2 div -56.479200 ex sub 14.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -61.000000 14.400000 m -61.000000 16.200000 l -51.958400 16.200000 l -51.958400 14.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -61.000000 14.400000 m -61.000000 16.200000 l -51.958400 16.200000 l -51.958400 14.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+args: RegType[3]) -60.850000 15.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+string: char*) -60.850000 15.894690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -61.000000 16.200000 m -61.000000 16.600000 l -51.958400 16.600000 l -51.958400 16.200000 l f
+0.000000 0.000000 0.000000 srgb
+n -61.000000 16.200000 m -61.000000 16.600000 l -51.958400 16.600000 l -51.958400 16.200000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -30.000000 73.000000 m -30.000000 74.400000 l -4.475200 74.400000 l -4.475200 73.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -30.000000 73.000000 m -30.000000 74.400000 l -4.475200 74.400000 l -4.475200 73.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(OpenFile) dup sw 2 div -17.237600 ex sub 74.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -30.000000 74.400000 m -30.000000 75.400000 l -4.475200 75.400000 l -4.475200 74.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -30.000000 74.400000 m -30.000000 75.400000 l -4.475200 75.400000 l -4.475200 74.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-seekPosition: int) -29.850000 75.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -30.000000 75.400000 m -30.000000 82.000000 l -4.475200 82.000000 l -4.475200 75.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -30.000000 75.400000 m -30.000000 82.000000 l -4.475200 82.000000 l -4.475200 75.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Length\(\): int) -29.850000 76.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+OpenFile\(sector:int\): ) -29.850000 76.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Read\(into:char*,numBytes:int\): int) -29.850000 77.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ReadAt\(into:char*,numBytes:int,position:int\): int) -29.850000 78.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Seek\(position:int\): void) -29.850000 79.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Write\(from:char*,numBytes:int\): int) -29.850000 80.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteAt\(from:char*,numBytes:int,position:int\): int) -29.850000 80.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~OpenFile\(\): ) -29.850000 81.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -4.868800 85.900000 m -2.000000 85.900000 l -2.000000 78.300000 l -4.475200 78.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -1.900000 81.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-hdr) -4.868800 85.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -4.868800 86.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -4.475200 78.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -4.475200 78.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 24.000000 105.100000 m 1.000000 105.100000 l 1.000000 70.100000 l 8.000000 70.100000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 1.100000 87.394690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 104.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 105.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-messageSent) dup sw 8.000000 ex sub 69.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 8.000000 ex sub 70.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -60.000000 31.000000 m -60.000000 32.400000 l -45.625600 32.400000 l -45.625600 31.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 31.000000 m -60.000000 32.400000 l -45.625600 32.400000 l -45.625600 31.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Statistics) dup sw 2 div -52.812800 ex sub 32.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -60.000000 32.400000 m -60.000000 41.400000 l -45.625600 41.400000 l -45.625600 32.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 32.400000 m -60.000000 41.400000 l -45.625600 41.400000 l -45.625600 32.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+idleTicks: int) -59.850000 33.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+numConsoleCharsRead: int) -59.850000 33.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+numConsoleCharsWritten: int) -59.850000 34.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+numDiskReads: int) -59.850000 35.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+numDiskWrites: int) -59.850000 36.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+numPacketsRecvd: int) -59.850000 37.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+numPacketsSent: int) -59.850000 37.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+numPageFaults: int) -59.850000 38.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+systemTicks: int) -59.850000 39.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+totalTicks: int) -59.850000 40.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+userTicks: int) -59.850000 41.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -60.000000 41.400000 m -60.000000 43.200000 l -45.625600 43.200000 l -45.625600 41.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -60.000000 41.400000 m -60.000000 43.200000 l -45.625600 43.200000 l -45.625600 41.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Print\(\): void) -59.850000 42.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Statistics\(\): ) -59.850000 42.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -31.000000 51.000000 m -31.000000 52.400000 l -7.414400 52.400000 l -7.414400 51.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -31.000000 51.000000 m -31.000000 52.400000 l -7.414400 52.400000 l -7.414400 51.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(SynchDisk) dup sw 2 div -19.207200 ex sub 52.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -31.000000 52.400000 m -31.000000 52.800000 l -7.414400 52.800000 l -7.414400 52.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -31.000000 52.400000 m -31.000000 52.800000 l -7.414400 52.800000 l -7.414400 52.400000 l cp s
+1.000000 1.000000 1.000000 srgb
+n -31.000000 52.800000 m -31.000000 57.000000 l -7.414400 57.000000 l -7.414400 52.800000 l f
+0.000000 0.000000 0.000000 srgb
+n -31.000000 52.800000 m -31.000000 57.000000 l -7.414400 57.000000 l -7.414400 52.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ReadSector\(sectorNumber:int,data:char*\): void) -30.850000 53.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+RequestDone\(\): void) -30.850000 54.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+SynchDisk\(name:char*\): ) -30.850000 55.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteSector\(sectorNumber:int,data:char*\): void) -30.850000 55.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~SynchDisk\(\): ) -30.850000 56.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -35.000000 36.900000 m -37.000000 36.900000 l -37.000000 51.700000 l -31.000000 51.700000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -36.900000 44.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-disk) dup sw -35.000000 ex sub 36.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -35.000000 ex sub 37.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -31.000000 ex sub 51.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -31.000000 ex sub 52.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 10.000000 76.900000 m -2.000000 76.900000 l -2.000000 54.900000 l -7.414400 54.900000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -1.900000 65.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-lock) dup sw 10.000000 ex sub 76.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 10.000000 ex sub 77.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -7.414400 54.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -7.414400 55.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 8.000000 68.500000 m -1.000000 68.500000 l -1.000000 53.300000 l -7.414400 53.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -0.900000 60.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-semaphore) dup sw 8.000000 ex sub 68.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 8.000000 ex sub 69.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -7.414400 53.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -7.414400 53.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -24.000000 23.000000 m -24.000000 24.400000 l -10.595200 24.400000 l -10.595200 23.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -24.000000 23.000000 m -24.000000 24.400000 l -10.595200 24.400000 l -10.595200 23.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(TranslationEntry) dup sw 2 div -17.297600 ex sub 24.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -24.000000 24.400000 m -24.000000 29.400000 l -10.595200 29.400000 l -10.595200 24.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -24.000000 24.400000 m -24.000000 29.400000 l -10.595200 29.400000 l -10.595200 24.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+dirty: bool) -23.850000 25.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+physicalPage: int) -23.850000 25.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+readOnly: bool) -23.850000 26.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+use: bool) -23.850000 27.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+valid: bool) -23.850000 28.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+virtualPage: unsigned int) -23.850000 29.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -24.000000 29.400000 m -24.000000 29.800000 l -10.595200 29.800000 l -10.595200 29.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -24.000000 29.400000 m -24.000000 29.800000 l -10.595200 29.800000 l -10.595200 29.400000 l cp s
+/Helvetica-latin1 ff 2.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Attachment 2: Nachos model) -60.000000 2.000000 m gs 1 -1 sc sh gr
+gr
+showpage
+
+%%Page: 2 2
+gs
+7.086614 -7.086614 scale
+11.280000 -107.520005 translate
+n 0.000000 0.000000 m 61.440002 0.000000 l 61.440002 96.240005 l 0.000000 96.240005 l 0.000000 0.000000 l clip
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 7.000000 86.000000 m 7.000000 87.400000 l 25.737600 87.400000 l 25.737600 86.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 7.000000 86.000000 m 7.000000 87.400000 l 25.737600 87.400000 l 25.737600 86.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Condition) dup sw 2 div 16.368800 ex sub 87.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 7.000000 87.400000 m 7.000000 88.400000 l 25.737600 88.400000 l 25.737600 87.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 7.000000 87.400000 m 7.000000 88.400000 l 25.737600 88.400000 l 25.737600 87.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-name: char*) 7.150000 88.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 7.000000 88.400000 m 7.000000 93.400000 l 25.737600 93.400000 l 25.737600 88.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 7.000000 88.400000 m 7.000000 93.400000 l 25.737600 93.400000 l 25.737600 88.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Broadcast\(conditionLock:Lock*\): void) 7.150000 89.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Condition\(debugName:char*\): ) 7.150000 89.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Signal\(conditionLock:Lock*\): void) 7.150000 90.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Wait\(conditionLock:Lock*\): void) 7.150000 91.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+getName\(\): char*) 7.150000 92.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Condition\(\): ) 7.150000 93.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 37.000000 38.000000 m 37.000000 39.400000 l 52.344000 39.400000 l 52.344000 38.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 37.000000 38.000000 m 37.000000 39.400000 l 52.344000 39.400000 l 52.344000 38.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Console) dup sw 2 div 44.672000 ex sub 39.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 37.000000 39.400000 m 37.000000 45.200000 l 52.344000 45.200000 l 52.344000 39.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 37.000000 39.400000 m 37.000000 45.200000 l 52.344000 45.200000 l 52.344000 39.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-handlerArg: int) 37.150000 40.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-incoming: char) 37.150000 40.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-putBusy: bool) 37.150000 41.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-readFileNo: int) 37.150000 42.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-readHandler: VoidFunctionPtr) 37.150000 43.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-writeFileNo: int) 37.150000 44.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-writeHandler: VoidFunctionPtr) 37.150000 44.894690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 37.000000 45.200000 m 37.000000 50.200000 l 52.344000 50.200000 l 52.344000 45.200000 l f
+0.000000 0.000000 0.000000 srgb
+n 37.000000 45.200000 m 37.000000 50.200000 l 52.344000 50.200000 l 52.344000 45.200000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+CheckCharAvail\(\): void) 37.150000 45.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Console\($$$:\): ) 37.150000 46.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+GetChar\(\): char) 37.150000 47.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+PutChar\(ch:char\): void) 37.150000 48.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+WriteDone\(\): void) 37.150000 49.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Console\(\): ) 37.150000 49.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 2.000000 9.000000 m 2.000000 10.400000 l 25.585600 10.400000 l 25.585600 9.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 9.000000 m 2.000000 10.400000 l 25.585600 10.400000 l 25.585600 9.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Interrupt) dup sw 2 div 13.792800 ex sub 10.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 2.000000 10.400000 m 2.000000 13.800000 l 25.585600 13.800000 l 25.585600 10.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 10.400000 m 2.000000 13.800000 l 25.585600 13.800000 l 25.585600 10.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-inHandler: bool) 2.150000 11.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-level: IntStatus) 2.150000 11.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-status: MachineStatus) 2.150000 12.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-yieldOnReturn: bool) 2.150000 13.494690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 2.000000 13.800000 m 2.000000 26.000000 l 25.585600 26.000000 l 25.585600 13.800000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 13.800000 m 2.000000 26.000000 l 25.585600 26.000000 l 25.585600 13.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-ChangeLevel\(old:IntStatus,now:IntStatus\): void) 2.150000 14.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-CheckIfDue\(advanceClock:bool\): bool) 2.150000 15.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+DumpState\(\): void) 2.150000 16.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Enable\(\): void) 2.150000 16.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Halt\(\): void) 2.150000 17.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Idle\(\): void) 2.150000 18.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Interrupt\(\): ) 2.150000 19.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+OneTick\(\): void) 2.150000 20.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Schedule\($$$:\): void) 2.150000 20.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+SetLevel\(level:IntStatus\): IntStatus) 2.150000 21.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+YieldOnReturn\(\): void) 2.150000 22.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+getLevel\(\): IntStatus) 2.150000 23.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+getStatus\(\): MachineStatus) 2.150000 24.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+setStatus\(st:MachineStatus\): void) 2.150000 24.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Interrupt\(\): ) 2.150000 25.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 25.585600 22.300000 m 28.000000 22.300000 l 28.000000 19.300000 l 30.000000 19.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 28.100000 20.594690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 25.585600 22.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 25.585600 22.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-pending) dup sw 30.000000 ex sub 19.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 30.000000 ex sub 19.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 35.000000 54.000000 m 35.000000 55.400000 l 56.646400 55.400000 l 56.646400 54.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 35.000000 54.000000 m 35.000000 55.400000 l 56.646400 55.400000 l 56.646400 54.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(List) dup sw 2 div 45.823200 ex sub 55.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 35.000000 55.400000 m 35.000000 55.800000 l 56.646400 55.800000 l 56.646400 55.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 35.000000 55.400000 m 35.000000 55.800000 l 56.646400 55.800000 l 56.646400 55.400000 l cp s
+1.000000 1.000000 1.000000 srgb
+n 35.000000 55.800000 m 35.000000 63.200000 l 56.646400 63.200000 l 56.646400 55.800000 l f
+0.000000 0.000000 0.000000 srgb
+n 35.000000 55.800000 m 35.000000 63.200000 l 56.646400 63.200000 l 56.646400 55.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Append\(item:void*\): void) 35.150000 56.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+IsEmpty\(\): bool) 35.150000 57.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+List\(\): ) 35.150000 58.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Mapcar\(func:VoidFunctionPtr\): void) 35.150000 58.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Prepend\(item:void*\): void) 35.150000 59.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Remove\(\): void*) 35.150000 60.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+SortedInsert\(item:void*,sortKey:int\): void) 35.150000 61.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+SortedRemove\(keyPtr:int*\): void*) 35.150000 62.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~List\(\): ) 35.150000 62.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 56.646400 57.900000 m 58.000000 57.900000 l 58.000000 67.700000 l 55.676800 67.700000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 58.100000 62.594690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 56.646400 57.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 56.646400 58.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-first) 55.676800 67.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 55.676800 68.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 56.646400 57.100000 m 59.000000 57.100000 l 59.000000 68.900000 l 55.676800 68.900000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 59.100000 62.794690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 56.646400 56.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 56.646400 57.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-last) 55.676800 68.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 55.676800 69.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 35.000000 67.000000 m 35.000000 68.400000 l 55.676800 68.400000 l 55.676800 67.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 35.000000 67.000000 m 35.000000 68.400000 l 55.676800 68.400000 l 55.676800 67.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(ListElement) dup sw 2 div 45.338400 ex sub 68.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 35.000000 68.400000 m 35.000000 71.000000 l 55.676800 71.000000 l 55.676800 68.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 35.000000 68.400000 m 35.000000 71.000000 l 55.676800 71.000000 l 55.676800 68.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+item: void*) 35.150000 69.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+key: int) 35.150000 69.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+next: ListElement*) 35.150000 70.694690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 35.000000 71.000000 m 35.000000 72.000000 l 55.676800 72.000000 l 55.676800 71.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 35.000000 71.000000 m 35.000000 72.000000 l 55.676800 72.000000 l 55.676800 71.000000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ListElement\(itemPtr:void*,sortKey:int\): ) 35.150000 71.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 10.000000 75.000000 m 10.000000 76.400000 l 25.344000 76.400000 l 25.344000 75.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 10.000000 75.000000 m 10.000000 76.400000 l 25.344000 76.400000 l 25.344000 75.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Lock) dup sw 2 div 17.672000 ex sub 76.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 10.000000 76.400000 m 10.000000 77.400000 l 25.344000 77.400000 l 25.344000 76.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 10.000000 76.400000 m 10.000000 77.400000 l 25.344000 77.400000 l 25.344000 76.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-name: char*) 10.150000 77.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 10.000000 77.400000 m 10.000000 82.400000 l 25.344000 82.400000 l 25.344000 77.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 10.000000 77.400000 m 10.000000 82.400000 l 25.344000 82.400000 l 25.344000 77.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Acquire\(\): void) 10.150000 78.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Lock\(debugName:char*\): ) 10.150000 78.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Release\(\): void) 10.150000 79.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+getName\(\): char*) 10.150000 80.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+isHeldByCurrentThread\(\): bool) 10.150000 81.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Lock\(\): ) 10.150000 82.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 30.000000 15.000000 m 30.000000 16.400000 l 42.920000 16.400000 l 42.920000 15.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 30.000000 15.000000 m 30.000000 16.400000 l 42.920000 16.400000 l 42.920000 15.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(PendingInterrupt) dup sw 2 div 36.460000 ex sub 16.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 30.000000 16.400000 m 30.000000 19.800000 l 42.920000 19.800000 l 42.920000 16.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 30.000000 16.400000 m 30.000000 19.800000 l 42.920000 19.800000 l 42.920000 16.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+arg: int) 30.150000 17.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+handler: VoidFunctionPtr) 30.150000 17.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+type: IntType) 30.150000 18.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+when: int) 30.150000 19.494690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 30.000000 19.800000 m 30.000000 20.800000 l 42.920000 20.800000 l 42.920000 19.800000 l f
+0.000000 0.000000 0.000000 srgb
+n 30.000000 19.800000 m 30.000000 20.800000 l 42.920000 20.800000 l 42.920000 19.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+PendingInterrupt\($$$:\): ) 30.150000 20.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 24.000000 103.500000 m 4.000000 103.500000 l 4.000000 71.400000 l 8.000000 71.400000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 4.100000 87.244690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 103.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 104.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-messageAvailable) dup sw 8.000000 ex sub 71.194690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 8.000000 ex sub 71.994690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 24.000000 105.100000 m 1.000000 105.100000 l 1.000000 70.100000 l 8.000000 70.100000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 1.100000 87.394690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 104.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 105.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-messageSent) dup sw 8.000000 ex sub 69.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 8.000000 ex sub 70.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 10.000000 79.500000 m 6.000000 79.500000 l 6.000000 101.700000 l 24.000000 101.700000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 6.100000 90.394690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-sendLock) dup sw 10.000000 ex sub 79.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 10.000000 ex sub 80.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 101.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 102.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 3.000000 29.000000 m 3.000000 30.400000 l 19.798400 30.400000 l 19.798400 29.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 3.000000 29.000000 m 3.000000 30.400000 l 19.798400 30.400000 l 19.798400 29.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Scheduler) dup sw 2 div 11.399200 ex sub 30.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 3.000000 30.400000 m 3.000000 30.800000 l 19.798400 30.800000 l 19.798400 30.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 3.000000 30.400000 m 3.000000 30.800000 l 19.798400 30.800000 l 19.798400 30.400000 l cp s
+1.000000 1.000000 1.000000 srgb
+n 3.000000 30.800000 m 3.000000 35.800000 l 19.798400 35.800000 l 19.798400 30.800000 l f
+0.000000 0.000000 0.000000 srgb
+n 3.000000 30.800000 m 3.000000 35.800000 l 19.798400 35.800000 l 19.798400 30.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+FindNextToRun\(\): Thread*) 3.150000 31.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Print\(\): void) 3.150000 32.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+ReadyToRun\(thread:Thread*\): void) 3.150000 33.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Run\(nextThread:Thread*\): void) 3.150000 33.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Scheduler\(\): ) 3.150000 34.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Scheduler\(\): ) 3.150000 35.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 19.798400 32.900000 m 32.000000 32.900000 l 32.000000 42.700000 l 27.040000 42.700000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 32.100000 37.594690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 19.798400 32.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 19.798400 33.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-readyList) 27.040000 42.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(*) 27.040000 43.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 8.000000 64.000000 m 8.000000 65.400000 l 31.100800 65.400000 l 31.100800 64.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 8.000000 64.000000 m 8.000000 65.400000 l 31.100800 65.400000 l 31.100800 64.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Semaphore) dup sw 2 div 19.550400 ex sub 65.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 8.000000 65.400000 m 8.000000 67.200000 l 31.100800 67.200000 l 31.100800 65.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 8.000000 65.400000 m 8.000000 67.200000 l 31.100800 67.200000 l 31.100800 65.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-name: char*) 8.150000 66.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-value: int) 8.150000 66.894690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 8.000000 67.200000 m 8.000000 71.400000 l 31.100800 71.400000 l 31.100800 67.200000 l f
+0.000000 0.000000 0.000000 srgb
+n 8.000000 67.200000 m 8.000000 71.400000 l 31.100800 71.400000 l 31.100800 67.200000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+P\(\): void) 8.150000 67.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Semaphore\(debugName:char*,initialValue:int\): ) 8.150000 68.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+V\(\): void) 8.150000 69.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+getName\(\): char*) 8.150000 70.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Semaphore\(\): ) 8.150000 71.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 31.100800 65.900000 m 31.899200 65.900000 l 31.899200 53.300000 l 27.040000 53.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 31.999200 59.394690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 31.100800 65.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 31.100800 66.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-queue) 27.040000 53.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(*) 27.040000 53.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 10.000000 76.900000 m -2.000000 76.900000 l -2.000000 54.900000 l -7.414400 54.900000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -1.900000 65.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-lock) dup sw 10.000000 ex sub 76.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 10.000000 ex sub 77.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -7.414400 54.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -7.414400 55.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 8.000000 68.500000 m -1.000000 68.500000 l -1.000000 53.300000 l -7.414400 53.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -0.900000 60.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-semaphore) dup sw 8.000000 ex sub 68.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 8.000000 ex sub 69.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -7.414400 53.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() -7.414400 53.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 34.000000 81.000000 m 34.000000 82.400000 l 51.768000 82.400000 l 51.768000 81.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 34.000000 81.000000 m 34.000000 82.400000 l 51.768000 82.400000 l 51.768000 81.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(SynchList) dup sw 2 div 42.884000 ex sub 82.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 34.000000 82.400000 m 34.000000 82.800000 l 51.768000 82.800000 l 51.768000 82.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 34.000000 82.400000 m 34.000000 82.800000 l 51.768000 82.800000 l 51.768000 82.400000 l cp s
+1.000000 1.000000 1.000000 srgb
+n 34.000000 82.800000 m 34.000000 87.000000 l 51.768000 87.000000 l 51.768000 82.800000 l f
+0.000000 0.000000 0.000000 srgb
+n 34.000000 82.800000 m 34.000000 87.000000 l 51.768000 87.000000 l 51.768000 82.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Append\(item:void*\): void) 34.150000 83.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Mapcar\(func:VoidFunctionPtr\): void) 34.150000 84.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Remove\(\): void*) 34.150000 85.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+SynchList\(\): ) 34.150000 85.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~SynchList\(\): ) 34.150000 86.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 35.000000 62.700000 m 33.000000 62.700000 l 33.000000 81.700000 l 34.000000 81.700000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 33.100000 71.994690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-list) dup sw 35.000000 ex sub 62.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 35.000000 ex sub 63.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 34.000000 ex sub 81.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 34.000000 ex sub 82.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 25.737600 87.900000 m 30.000000 87.900000 l 30.000000 85.700000 l 34.000000 85.700000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 30.100000 86.594690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-listEmpty) 25.737600 87.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 25.737600 88.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 34.000000 ex sub 85.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 34.000000 ex sub 86.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 25.344000 76.900000 m 28.000000 76.900000 l 28.000000 83.300000 l 34.000000 83.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 28.100000 79.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-lock) 25.344000 76.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 25.344000 77.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 34.000000 ex sub 83.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 34.000000 ex sub 83.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 2.000000 40.000000 m 2.000000 41.400000 l 27.040000 41.400000 l 27.040000 40.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 40.000000 m 2.000000 41.400000 l 27.040000 41.400000 l 27.040000 40.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Thread) dup sw 2 div 14.520000 ex sub 41.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 2.000000 41.400000 m 2.000000 45.600000 l 27.040000 45.600000 l 27.040000 41.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 41.400000 m 2.000000 45.600000 l 27.040000 45.600000 l 27.040000 41.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-machineState: int[MachineStateSize]) 2.150000 42.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-name: char*) 2.150000 42.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-stack: int*) 2.150000 43.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-stackTop: int*) 2.150000 44.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-status: ThreadStatus) 2.150000 45.294690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 2.000000 45.600000 m 2.000000 54.600000 l 27.040000 54.600000 l 27.040000 45.600000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 45.600000 m 2.000000 54.600000 l 27.040000 54.600000 l 27.040000 45.600000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+CheckOverflow\(\): void) 2.150000 46.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Finish\(\): void) 2.150000 47.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Fork\(func:VoidFunctionPtr,arg:int\): void) 2.150000 47.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Print\(\): void) 2.150000 48.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Sleep\(\): void) 2.150000 49.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-StackAllocate\(func:VoidFunctionPtr,arg:int\): void) 2.150000 50.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Thread\(debugName:char*\): ) 2.150000 51.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Yield\(\): void) 2.150000 51.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+getName\(\): char*) 2.150000 52.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+setStatus\(st:ThreadStatus\): void) 2.150000 53.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Thread\(\): ) 2.150000 54.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 27.000000 2.000000 m 27.000000 3.400000 l 58.827200 3.400000 l 58.827200 2.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 27.000000 2.000000 m 27.000000 3.400000 l 58.827200 3.400000 l 58.827200 2.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Timer) dup sw 2 div 42.913600 ex sub 3.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 27.000000 3.400000 m 27.000000 6.000000 l 58.827200 6.000000 l 58.827200 3.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 27.000000 3.400000 m 27.000000 6.000000 l 58.827200 6.000000 l 58.827200 3.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-arg: int) 27.150000 4.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-handler: VoidFunctionPtr) 27.150000 4.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-randomize: bool) 27.150000 5.694690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 27.000000 6.000000 m 27.000000 9.400000 l 58.827200 9.400000 l 58.827200 6.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 27.000000 6.000000 m 27.000000 9.400000 l 58.827200 9.400000 l 58.827200 6.000000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+TimeOfNextInterrupt\(\): int) 27.150000 6.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Timer\(timerHandler:VoidFunctionPtr,callArg:int,doRandom:bool\): ) 27.150000 7.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+TimerExpired\(\): void) 27.150000 8.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Timer\(\): ) 27.150000 9.094690 m gs 1 -1 sc sh gr
+gr
+showpage
+
+%%Page: 3 3
+gs
+7.086614 -7.086614 scale
+72.720002 -203.760011 translate
+n -61.440002 96.240005 m 0.000000 96.240005 l 0.000000 192.480011 l -61.440002 192.480011 l -61.440002 96.240005 l clip
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -16.000000 121.000000 m -16.000000 122.400000 l -6.958400 122.400000 l -6.958400 121.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -16.000000 121.000000 m -16.000000 122.400000 l -6.958400 122.400000 l -6.958400 121.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(AOUTHDR) dup sw 2 div -11.479200 ex sub 122.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -16.000000 122.400000 m -16.000000 132.200000 l -6.958400 132.200000 l -6.958400 122.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -16.000000 122.400000 m -16.000000 132.200000 l -6.958400 132.200000 l -6.958400 122.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+bsize: long) -15.850000 123.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+bss_start: long) -15.850000 123.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+cprmask: long[4]) -15.850000 124.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+data_start: long) -15.850000 125.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+dsize: long) -15.850000 126.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+entry: long) -15.850000 127.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+gp_value: long) -15.850000 127.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+gprmask: long) -15.850000 128.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+magic: short) -15.850000 129.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+text_start: long) -15.850000 130.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+tsize: long) -15.850000 131.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+vstamp: short) -15.850000 131.894690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -16.000000 132.200000 m -16.000000 132.600000 l -6.958400 132.600000 l -6.958400 132.200000 l f
+0.000000 0.000000 0.000000 srgb
+n -16.000000 132.200000 m -16.000000 132.600000 l -6.958400 132.600000 l -6.958400 132.200000 l cp s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 2.000000 123.100000 m 1.000000 123.100000 l 1.000000 134.900000 l 8.000000 134.900000 l s
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 2.000000 123.100000 m 1.300000 123.340000 l 0.600000 123.100000 l 1.300000 122.860000 l f
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 1.100000 128.794690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 2.000000 ex sub 122.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 2.000000 ex sub 123.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-inHdr) dup sw 8.000000 ex sub 134.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(1) dup sw 8.000000 ex sub 135.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -25.000000 122.000000 m -25.000000 123.400000 l -16.928000 123.400000 l -16.928000 122.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -25.000000 122.000000 m -25.000000 123.400000 l -16.928000 123.400000 l -16.928000 122.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(NoffHeader) dup sw 2 div -20.964000 ex sub 123.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -25.000000 123.400000 m -25.000000 124.400000 l -16.928000 124.400000 l -16.928000 123.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -25.000000 123.400000 m -25.000000 124.400000 l -16.928000 124.400000 l -16.928000 123.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+noffMagic: int) -24.850000 124.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -25.000000 124.400000 m -25.000000 124.800000 l -16.928000 124.800000 l -16.928000 124.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -25.000000 124.400000 m -25.000000 124.800000 l -16.928000 124.800000 l -16.928000 124.400000 l cp s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -25.000000 122.700000 m -31.000000 122.700000 l -31.000000 130.900000 l -28.000000 130.900000 l s
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -25.000000 122.700000 m -25.700000 122.940000 l -26.400000 122.700000 l -25.700000 122.460000 l f
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -30.900000 126.594690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -25.000000 ex sub 122.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -25.000000 ex sub 123.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(+initData) dup sw -28.000000 ex sub 130.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(1) dup sw -28.000000 ex sub 131.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -25.000000 123.900000 m -29.000000 123.900000 l -29.000000 129.700000 l -28.000000 129.700000 l s
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -25.000000 123.900000 m -25.700000 124.140000 l -26.400000 123.900000 l -25.700000 123.660000 l f
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() -28.900000 126.594690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -25.000000 ex sub 123.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw -25.000000 ex sub 124.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(+uninitData) dup sw -28.000000 ex sub 129.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(1) dup sw -28.000000 ex sub 130.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 24.000000 105.100000 m 1.000000 105.100000 l 1.000000 70.100000 l 8.000000 70.100000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 1.100000 87.394690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 104.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 105.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-messageSent) dup sw 8.000000 ex sub 69.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 8.000000 ex sub 70.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -28.000000 129.000000 m -28.000000 130.400000 l -18.958400 130.400000 l -18.958400 129.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -28.000000 129.000000 m -28.000000 130.400000 l -18.958400 130.400000 l -18.958400 129.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Segment) dup sw 2 div -23.479200 ex sub 130.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -28.000000 130.400000 m -28.000000 133.000000 l -18.958400 133.000000 l -18.958400 130.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -28.000000 130.400000 m -28.000000 133.000000 l -18.958400 133.000000 l -18.958400 130.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+inFileAddr: int) -27.850000 131.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+size: int) -27.850000 131.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+virtualAddr: int) -27.850000 132.694690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -28.000000 133.000000 m -28.000000 133.400000 l -18.958400 133.400000 l -18.958400 133.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -28.000000 133.000000 m -28.000000 133.400000 l -18.958400 133.400000 l -18.958400 133.000000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -17.000000 102.000000 m -17.000000 103.400000 l -4.080000 103.400000 l -4.080000 102.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -17.000000 102.000000 m -17.000000 103.400000 l -4.080000 103.400000 l -4.080000 102.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(filehdr) dup sw 2 div -10.540000 ex sub 103.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -17.000000 103.400000 m -17.000000 109.200000 l -4.080000 109.200000 l -4.080000 103.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -17.000000 103.400000 m -17.000000 109.200000 l -4.080000 109.200000 l -4.080000 103.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+f_flags: unsigned short) -16.850000 104.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+f_magic: unsigned short) -16.850000 104.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+f_nscns: unsigned short) -16.850000 105.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+f_nsyms: long) -16.850000 106.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+f_opthdr: unsigned short) -16.850000 107.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+f_symptr: long) -16.850000 108.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+f_timdat: long) -16.850000 108.894690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -17.000000 109.200000 m -17.000000 109.600000 l -4.080000 109.600000 l -4.080000 109.200000 l f
+0.000000 0.000000 0.000000 srgb
+n -17.000000 109.200000 m -17.000000 109.600000 l -4.080000 109.600000 l -4.080000 109.200000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -32.000000 102.000000 m -32.000000 103.400000 l -19.080000 103.400000 l -19.080000 102.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -32.000000 102.000000 m -32.000000 103.400000 l -19.080000 103.400000 l -19.080000 102.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(scnhdr) dup sw 2 div -25.540000 ex sub 103.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -32.000000 103.400000 m -32.000000 111.600000 l -19.080000 111.600000 l -19.080000 103.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -32.000000 103.400000 m -32.000000 111.600000 l -19.080000 111.600000 l -19.080000 103.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_flags: long) -31.850000 104.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_lnnoptr: long) -31.850000 104.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_name: char[8]) -31.850000 105.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_nlnno: unsigned short) -31.850000 106.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_nreloc: unsigned short) -31.850000 107.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_paddr: long) -31.850000 108.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_relptr: long) -31.850000 108.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_scnptr: long) -31.850000 109.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_size: long) -31.850000 110.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+s_vaddr: long) -31.850000 111.294690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -32.000000 111.600000 m -32.000000 112.000000 l -19.080000 112.000000 l -19.080000 111.600000 l f
+0.000000 0.000000 0.000000 srgb
+n -32.000000 111.600000 m -32.000000 112.000000 l -19.080000 112.000000 l -19.080000 111.600000 l cp s
+gr
+showpage
+
+%%Page: 4 4
+gs
+7.086614 -7.086614 scale
+11.280000 -203.760011 translate
+n 0.000000 96.240005 m 61.440002 96.240005 l 61.440002 192.480011 l 0.000000 192.480011 l 0.000000 96.240005 l clip
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 24.000000 127.000000 m 24.000000 128.400000 l 52.433600 128.400000 l 52.433600 127.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 127.000000 m 24.000000 128.400000 l 52.433600 128.400000 l 52.433600 127.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Mail) dup sw 2 div 38.216800 ex sub 128.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 24.000000 128.400000 m 24.000000 129.400000 l 52.433600 129.400000 l 52.433600 128.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 128.400000 m 24.000000 129.400000 l 52.433600 129.400000 l 52.433600 128.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+data: char[MaxMailSize]) 24.150000 129.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 24.000000 129.400000 m 24.000000 130.400000 l 52.433600 130.400000 l 52.433600 129.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 129.400000 m 24.000000 130.400000 l 52.433600 130.400000 l 52.433600 129.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Mail\(pktH:PacketHeader,mailH:MailHeader,msgData:char*\): ) 24.150000 130.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 52.433600 129.900000 m 57.000000 129.900000 l 57.000000 133.000000 l 50.980800 133.000000 l s
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 52.433600 129.900000 m 53.133600 129.660000 l 53.833600 129.900000 l 53.133600 130.140000 l f
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 57.100000 131.244690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 52.433600 129.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 52.433600 130.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(+mailHdr) 50.980800 132.794690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(1) 50.980800 133.594690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 24.000000 129.900000 m 22.000000 129.900000 l 22.000000 134.900000 l 18.980800 134.900000 l s
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 24.000000 129.900000 m 23.300000 130.140000 l 22.600000 129.900000 l 23.300000 129.660000 l f
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 22.100000 132.194690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 129.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 130.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(+pktHdr) 18.980800 134.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(1) 18.980800 135.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 24.000000 115.000000 m 24.000000 116.400000 l 55.342400 116.400000 l 55.342400 115.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 115.000000 m 24.000000 116.400000 l 55.342400 116.400000 l 55.342400 115.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(MailBox) dup sw 2 div 39.671200 ex sub 116.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 24.000000 116.400000 m 24.000000 116.800000 l 55.342400 116.800000 l 55.342400 116.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 116.400000 m 24.000000 116.800000 l 55.342400 116.800000 l 55.342400 116.400000 l cp s
+1.000000 1.000000 1.000000 srgb
+n 24.000000 116.800000 m 24.000000 120.200000 l 55.342400 120.200000 l 55.342400 116.800000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 116.800000 m 24.000000 120.200000 l 55.342400 120.200000 l 55.342400 116.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Get\(pktHdr:PacketHeader*,mailHdr:MailHeader*,data:char*\): void) 24.150000 117.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+MailBox\(\): ) 24.150000 118.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Put\(pktHdr:PacketHeader,mailHdr:MailHeader,data:char*\): void) 24.150000 119.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~MailBox\(\): ) 24.150000 119.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 52.433600 127.000000 m 59.000000 127.000000 l 59.000000 117.300000 l 55.342400 117.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 59.100000 121.944690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-messages) 52.433600 126.794690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 52.433600 127.594690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 55.342400 117.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 55.342400 117.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 40.000000 133.000000 m 40.000000 134.400000 l 50.980800 134.400000 l 50.980800 133.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 40.000000 133.000000 m 40.000000 134.400000 l 50.980800 134.400000 l 50.980800 133.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(MailHeader) dup sw 2 div 45.490400 ex sub 134.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 40.000000 134.400000 m 40.000000 137.000000 l 50.980800 137.000000 l 50.980800 134.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 40.000000 134.400000 m 40.000000 137.000000 l 50.980800 137.000000 l 50.980800 134.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+from: MailBoxAddress) 40.150000 135.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+length: unsigned) 40.150000 135.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+to: MailBoxAddress) 40.150000 136.694690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 40.000000 137.000000 m 40.000000 137.400000 l 50.980800 137.400000 l 50.980800 137.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 40.000000 137.000000 m 40.000000 137.400000 l 50.980800 137.400000 l 50.980800 137.000000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 2.000000 109.000000 m 2.000000 110.400000 l 22.192000 110.400000 l 22.192000 109.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 109.000000 m 2.000000 110.400000 l 22.192000 110.400000 l 22.192000 109.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(Network) dup sw 2 div 12.096000 ex sub 110.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 2.000000 110.400000 m 2.000000 118.600000 l 22.192000 118.600000 l 22.192000 110.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 110.400000 m 2.000000 118.600000 l 22.192000 118.600000 l 22.192000 110.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-chanceToWork: double) 2.150000 111.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-handlerArg: int) 2.150000 111.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-ident: NetworkAddress) 2.150000 112.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-inbox: char[MaxPacketSize]) 2.150000 113.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-packetAvail: bool) 2.150000 114.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-readHandler: VoidFunctionPtr) 2.150000 115.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-sendBusy: bool) 2.150000 115.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-sock: int) 2.150000 116.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-sockName: char[32]) 2.150000 117.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-writeHandler: VoidFunctionPtr) 2.150000 118.294690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 2.000000 118.600000 m 2.000000 123.600000 l 22.192000 123.600000 l 22.192000 118.600000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.000000 118.600000 m 2.000000 123.600000 l 22.192000 123.600000 l 22.192000 118.600000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+CheckPktAvail\(\): void) 2.150000 119.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Network\($$$:\): ) 2.150000 120.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Receive\(data:char*\): PacketHeader) 2.150000 120.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Send\(hdr:PacketHeader,data:char*\): void) 2.150000 121.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+SendDone\(\): void) 2.150000 122.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~Network\(\): ) 2.150000 123.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 2.000000 123.100000 m 1.000000 123.100000 l 1.000000 134.900000 l 8.000000 134.900000 l s
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 2.000000 123.100000 m 1.300000 123.340000 l 0.600000 123.100000 l 1.300000 122.860000 l f
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 1.100000 128.794690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 2.000000 ex sub 122.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 2.000000 ex sub 123.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-inHdr) dup sw 8.000000 ex sub 134.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(1) dup sw 8.000000 ex sub 135.494690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 8.000000 133.000000 m 8.000000 134.400000 l 18.980800 134.400000 l 18.980800 133.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 8.000000 133.000000 m 8.000000 134.400000 l 18.980800 134.400000 l 18.980800 133.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(PacketHeader) dup sw 2 div 13.490400 ex sub 134.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 8.000000 134.400000 m 8.000000 137.000000 l 18.980800 137.000000 l 18.980800 134.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 8.000000 134.400000 m 8.000000 137.000000 l 18.980800 137.000000 l 18.980800 134.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+from: NetworkAddress) 8.150000 135.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+length: unsigned) 8.150000 135.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+to: NetworkAddress) 8.150000 136.694690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 8.000000 137.000000 m 8.000000 137.400000 l 18.980800 137.400000 l 18.980800 137.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 8.000000 137.000000 m 8.000000 137.400000 l 18.980800 137.400000 l 18.980800 137.000000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 24.000000 99.000000 m 24.000000 100.400000 l 55.827200 100.400000 l 55.827200 99.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 99.000000 m 24.000000 100.400000 l 55.827200 100.400000 l 55.827200 99.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+0.000000 0.000000 0.000000 srgb
+(PostOffice) dup sw 2 div 39.913600 ex sub 100.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 24.000000 100.400000 m 24.000000 102.200000 l 55.827200 102.200000 l 55.827200 100.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 100.400000 m 24.000000 102.200000 l 55.827200 102.200000 l 55.827200 100.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-netAddr: NetworkAddress) 24.150000 101.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(-numBoxes: int) 24.150000 101.894690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 24.000000 102.200000 m 24.000000 108.000000 l 55.827200 108.000000 l 55.827200 102.200000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.000000 102.200000 m 24.000000 108.000000 l 55.827200 108.000000 l 55.827200 102.200000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+IncomingPacket\(\): void) 24.150000 102.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+PacketSent\(\): void) 24.150000 103.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+PostOffice\(addr:NetworkAddress,reliability:double,nBoxes:int\): ) 24.150000 104.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+PostalDelivery\(\): void) 24.150000 105.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Receive\($$$:\): void) 24.150000 106.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+Send\(pktHdr:PacketHeader,mailHdr:MailHeader,data:char*\): void) 24.150000 106.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+(+~PostOffice\(\): ) 24.150000 107.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 55.342400 115.700000 m 58.000000 115.700000 l 58.000000 101.700000 l 55.827200 101.700000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 58.100000 108.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-boxes) 55.342400 115.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 55.342400 116.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 55.827200 101.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 55.827200 102.294690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 24.000000 103.500000 m 4.000000 103.500000 l 4.000000 71.400000 l 8.000000 71.400000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 4.100000 87.244690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 103.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 104.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-messageAvailable) dup sw 8.000000 ex sub 71.194690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 8.000000 ex sub 71.994690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 24.000000 105.100000 m 1.000000 105.100000 l 1.000000 70.100000 l 8.000000 70.100000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 1.100000 87.394690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 104.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 105.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-messageSent) dup sw 8.000000 ex sub 69.894690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 8.000000 ex sub 70.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 22.192000 110.900000 m 27.000000 110.900000 l 27.000000 108.000000 l 24.000000 108.000000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 27.100000 109.244690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-network) 22.192000 110.694690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 22.192000 111.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 24.000000 107.794690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() 24.000000 108.594690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 10.000000 79.500000 m 6.000000 79.500000 l 6.000000 101.700000 l 24.000000 101.700000 l s
+/Courier-latin1 ff 0.800000 scf sf
+0.000000 0.000000 0.000000 srgb
+() 6.100000 90.394690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+(-sendLock) dup sw 10.000000 ex sub 79.294690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 10.000000 ex sub 80.094690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 101.494690 m gs 1 -1 sc sh gr
+0.000000 0.000000 0.000000 srgb
+() dup sw 24.000000 ex sub 102.294690 m gs 1 -1 sc sh gr
+gr
+showpage
+
